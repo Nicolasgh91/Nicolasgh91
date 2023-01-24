@@ -9,3 +9,7 @@
 - 📫 How to reach me: https://nicolasgh91.github.io/Portfolio or    https://www.linkedin.com/in/nicolasgabrielhruszczak/...
 - ⚡ Fun fact: I love board games and riddles...
 
+Deployed projects: 
+  - https://companytemplate.vercel.app/ -- Project only with HTML & CSS, just for fun a "template" for a company website. Deployed at Vercel
+  - https://nicolasgh91.github.io/Maquetados-FrontEnd-Mentor/ -- Challenge project from FrontEnd-Mentor, with fake information, with the implementation of GRID layout. 
+  - https://github.com/Nicolasgh91/Java-Projects/tree/main/Medieval%20Serialization%20-%20Game%20using%20serializer/MedievalSerialization -- Console game done as part of the Java Intermediate Course on CodeCademy. Learned to serialize and de-serialize.
