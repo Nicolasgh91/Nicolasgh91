@@ -30,3 +30,10 @@ FrontEnd projects
  
   - https://github.com/Nicolasgh91/Java-Projects/tree/main/Challenges -- Many challenges done to practice Math, Algorithms, problem solving. Those challenges (and more) can be found at HackerRanks website, a site to measure yourself on many programming languages.
 
+
+Skills i know, in descending order: 
+Java, Spring, SQL, HTML, CSS, JavaScript, MongoDB, Docker, AWS, React
+
+Soft skills:
+Kanban, Agile methodologies, Srum, Lean, Design Thinking
+
