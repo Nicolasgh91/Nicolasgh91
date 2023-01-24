@@ -9,7 +9,7 @@
 - 📫 How to reach me: https://nicolasgh91.github.io/Portfolio or    https://www.linkedin.com/in/nicolasgabrielhruszczak/...
 - ⚡ Fun fact: I love board games and riddles...
 
-Deployed projects: 
+Link to deployed projects: 
 
 FrontEnd projects
 
