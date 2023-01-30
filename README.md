@@ -10,7 +10,7 @@
 - ⚡ Fun fact: I love board games and riddles...
 - ☕ If you came all the way here, please send me a DM on LinkedIn for feedback...
 
-Link to deployed projects: 
+Links to deployed projects: 
 
 FrontEnd projects
 
