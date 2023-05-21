@@ -62,8 +62,7 @@
 ---
  ### Problem solving challenges
  
- * Algorithms made to practice Math and problem solving skills. These challenges (and more) can be found at HackerRanks website, a site to measure yourself on many programming languages. Link: 
-  https://github.com/Nicolasgh91/Java-Projects/tree/main/Challenges
+ * Algorithms made to practice Math and problem solving skills. These challenges (and more) can be found at HackerRanks website, a site to measure yourself on many programming languages. [Algorithms_Challenges](https://github.com/Nicolasgh91/Java-Projects/tree/main/Challenges)
 
 ---
 
