@@ -28,7 +28,7 @@
 #### Group projects made in "Information Processing Systems" (SPD)
  * Used C++ on Tinkercad to simulate a traffic light system on Arduino_Uno board. [Traffic_Light](https://github.com/Nicolasgh91/TP-Grupal-Arduino-Semaforo)
  * Used C++ on Tinkercad to simulate the Metro line "C" from Buenos aires operate. Made it using Arduino_Uno board. [Subway_Line_C](https://github.com/Nicolasgh91/TP2-SPD-UTN-Estaciones_Subte)
- * Used C++ on Tinkercad to simulate an elevator system on Tinkercad. Made it using Arduino_Uno board.[Elevator_System](https://github.com/Nicolasgh91/Modelo-Montacargas-SPD-UTN)
+ * Used C++ on Tinkercad to simulate an elevator system on Tinkercad. Made it using Arduino_Uno board. [Elevator_System](https://github.com/Nicolasgh91/Modelo-Montacargas-SPD-UTN)
 
 #### Projects made in "Laboratorio I y Programación I"
 * Used Python to analize, search, sort, organize, parse, export data and more. These projects were done in the first period of "Programación I y Laboratorio I" subjects. [Challenges](https://github.com/Nicolasgh91/UTN-Programacion/tree/main/Cuatrimestre-I/Programaci%C3%B3n-I/Biblioteca)
@@ -66,7 +66,7 @@
 
 ---
 
-**Skills i know in descending order**: 
+**Skills I know in descending order**: 
 *Java, Spring, SQL, HTML, CSS, JavaScript, Python, MongoDB, Docker, AWS, React*
 
 **Soft skills**:
