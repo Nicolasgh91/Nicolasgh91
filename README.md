@@ -6,7 +6,7 @@
 🌱 I’m currently studying at UADE...
 
 📫 How to reach me: [Portfolio](https://nicolasgh91.github.io/Portfolio) or
-[LinkedIn](https://www.linkedin.com/in/nicolashruszczak/)
+[LinkedIn](https://www.linkedin.com/in/nicolasgpini/)
 
 ⚡ I love to excercise, such as going out running, playing soccer or working out at the gym...
 
