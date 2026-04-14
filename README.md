@@ -1,4 +1,4 @@
-# Nicolás Pini
+# Nicolás
 
 Full-stack developer · Analista funcional TI
 
