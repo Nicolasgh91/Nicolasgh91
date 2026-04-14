@@ -1,68 +1,75 @@
-## *Hi there* 👋
+# Nicolás Pini
 
+Full-stack developer · Analista funcional TI
 
-🔭 I’m currently working as IT Business Analyst...
-
-🌱 I’m currently studying at UADE...
-
-📫 How to reach me: [Portfolio](https://nicolasgh91.github.io/Portfolio) or
-[LinkedIn](https://www.linkedin.com/in/nicolasgpini/)
-
-⚡ I love to excercise, such as going out running, playing soccer or working out at the gym...
-
-☕ Let's get a cup of coffee! Or if you'd like to leave me any feedback, please leave a pm or get in touch through my LinkedIn profile...
-
-
-## Links to deployed projects: 
-
-
-### Universidad Tecnológica Nacional (UTN) 
-
-
-#### Group projects made in "Information Processing Systems" (SPD)
- * Used C++ on Tinkercad to simulate a traffic light system on Arduino_Uno board. [Traffic_Light](https://github.com/Nicolasgh91/TP-Grupal-Arduino-Semaforo)
- * Used C++ on Tinkercad to simulate the Metro line "C" from Buenos aires operate. Made it using Arduino_Uno board. [Subway_Line_C](https://github.com/Nicolasgh91/TP2-SPD-UTN-Estaciones_Subte)
- * Used C++ on Tinkercad to simulate an elevator system on Tinkercad. Made it using Arduino_Uno board. [Elevator_System](https://github.com/Nicolasgh91/Modelo-Montacargas-SPD-UTN)
-
-#### Projects made in "Laboratorio I y Programación I"
-* Used Python to analize, search, sort, organize, parse, export data and more. These projects were done in the first period of "Programación I y Laboratorio I" subjects. [Challenges](https://github.com/Nicolasgh91/UTN-Programacion/tree/main/Cuatrimestre-I/Programaci%C3%B3n-I/Biblioteca)
-
----
-### FrontEnd projects
-
-  + To Do App made as final project on FrontEnd_II at Digital House. Made with HTML, CSS and JavaScript. [To_Do_App](https://github.com/Nicolasgh91/FrontEnd-Projects/tree/main/8.ToDo-App-JavaScript-DigitalHouse) 
-   
-
-  + Challenge project from FrontEnd_Mentor with fake information. Made using CSS_GRID layout. [CSS_Challenge](https://nicolasgh91.github.io/Maquetados-FrontEnd-Mentor/)
-  
-
-  * Sketch project deployed at Vercel. Made with HTML & CSS, trying out a main site layout for a company. [Template_Site](https://companytemplate.vercel.app/)
-   
-  
-  ---
-  ### BackEnd projects
-  
-  * Console game made as part of the Java Intermediate Course on CodeCademy, learned to serialize and de-serialize. [Medieval_Game](https://github.com/Nicolasgh91/Java-Projects/tree/main/Medieval%20Serialization%20-%20Game%20using%20serializer/MedievalSerialization)
-  
-  * To-Do App project to practice Spring Boot with Java with connection to a database. Technologies used Maven, Lombok, H2 Database, Hibernate. [To_Do_App_Java](https://github.com/Nicolasgh91/Java-Projects/tree/main/Spring-ToDoApp)
-  
-  
- ---
- ### FullStack project
- 
-   *   Full-Stack project where I used: Java, Spring, React and MongoDB. It is a movie finder website, with the possibility to see their trailers and leave reviews. [Movie_Finder](https://github.com/Nicolasgh91/Java-Projects/tree/main/Movie%20App%20-%20Spring:Java:MongoDB:React)
-   
-
----
- ### Problem solving challenges
- 
- * Algorithms made to practice Math and problem solving skills. These challenges (and more) can be found at HackerRanks website, a site to measure yourself on many programming languages. [Algorithms_Challenges](https://github.com/Nicolasgh91/Java-Projects/tree/main/Challenges)
+Estudiante de licenciatura en gestión de TI (UADE). Me especializo en construir aplicaciones web escalables que integran frontend moderno, APIs robustas e infraestructura cloud, con foco en la intersección entre decisiones técnicas y necesidades de negocio.
 
 ---
 
-**Skills I know in descending order**: 
-*Java, Spring, SQL, HTML, CSS, JavaScript, Python, MongoDB, Docker, AWS, React*
+## Proyectos destacados
 
-**Soft skills**:
-*Kanban, Agile methodologies, Srum, Lean, Design Thinking*
+### Huella del fuego
+*Full-stack developer — en producción · [huelladelfuego.com.ar](https://huelladelfuego.com.ar)*
 
+Plataforma para explorar qué pasó con los terrenos afectados por incendios forestales en Argentina. Permite ver dónde ocurrió cada incendio, cómo evolucionó la vegetación en los meses y años posteriores, y si el suelo se recuperó o fue utilizado para otros fines.
+
+Los datos provienen de satélites NASA (FIRMS) y ESA (Sentinel-2). Cualquier persona puede buscar un terreno por coordenadas y obtener una línea de tiempo visual de su historia desde el incendio hasta hoy.
+
+Decisiones técnicas destacadas:
+
+- Diseñé el modelo de dominio para `fire_detections` → `fire_events` → `fire_episodes` con transiciones de estado basadas en funciones de tiempo puras, sin re-chequeo de distancias.
+- Clustering espacial DBSCAN con indexación hexagonal H3 (BIGINT): 10× menos almacenamiento que geometrías tradicionales, con agregaciones directas para heatmaps.
+- Pipeline de análisis NDVI en 14 fases sobre Google Earth Engine: baseline construido con `qualityMosaic('NDVI')` de 365 días previos al incendio para capturar el pico anual real de vegetación.
+- Arquitectura async-first: imágenes satelitales, clustering y generación de contenido delegados a workers Celery con colas separadas (`worker-fast` / `worker-gee`); la API responde 202 de forma inmediata.
+- Enriquecimiento geográfico automático con PostGIS contra ~530 departamentos argentinos (datos Georef AR).
+
+Stack: Python (FastAPI), Celery, Redis, React 19, TypeScript, Vite 7, Leaflet, Supabase (PostgreSQL/PostGIS), Google Earth Engine, NASA FIRMS, Docker Compose, Oracle Cloud ARM64, Cloudflare Pages, OCI Object Storage.
+
+### Escalatunegocioconia
+*Full-stack developer — en producción*
+
+Plataforma de servicios de negocio con módulo de talento, catálogo de servicios digitales y blog orientado a posicionamiento orgánico.
+
+- Arquitecté el portal de talento y servicios: modelado de datos, API REST y UI con shadcn/ui.
+- Desarrollé la arquitectura de blog con rendering optimizado para SEO y estructura de rutas semánticas.
+- Integré múltiples APIs externas manteniendo contratos de tipo estrictos en TypeScript.
+- Stack: React, TypeScript, Vite, shadcn/ui, integraciones API, gestión de base de datos.
+
+Subdominios en producción:
+
+| Demo | Repo | Descripción |
+|---|---|---|
+| [creador-contenido.escalatunegocioconia.com](https://creador-contenido.escalatunegocioconia.com) | [remix-of-personal-blog](https://github.com/Nicolasgh91/remix-of-personal-blog) | Blog SPA para creador de contenido — React 18, React Router 6, TanStack Query, shadcn/ui |
+| [template-pyme.escalatunegocioconia.com/productos](https://template-pyme.escalatunegocioconia.com/productos) | [template-pyme](https://github.com/Nicolasgh91/template-pyme) | Landing para pyme — demo panadería artesanal |
+| [template-pyme.escalatunegocioconia.com/servicios](https://template-pyme.escalatunegocioconia.com/servicios) | [template-pyme](https://github.com/Nicolasgh91/template-pyme) | Landing para pyme — demo estudio contable |
+
+---
+
+## Stack técnico
+
+**Frontend** · React · TypeScript · Vite · shadcn/ui · HTML · CSS
+
+**Backend** · Python (FastAPI) · Java (Spring Boot) · SQL
+
+**Infraestructura** · Supabase · PostgreSQL · PostGIS · Cloudflare Workers · Docker · AWS
+
+**Testing** · Playwright · pruebas de integración
+
+**Metodologías** · Kanban · Scrum · Design Thinking
+
+---
+
+## Formación y experiencia de base
+
+- Licenciatura en gestión de TI — UADE (en curso)
+- Implementación de API REST con Java, Spring Boot, Maven e Hibernate
+- Procesamiento de datos con Python (UTN)
+- Resolución continua de problemas algorítmicos en HackerRank
+
+---
+
+## Contacto
+
+- Correo: nicolasgabh33@gmail.com
+- LinkedIn: [linkedin.com/in/nicolasgpini](https://www.linkedin.com/in/nicolasgpini/)
+- Portfolio: [nicolasgh91.github.io/Portfolio](https://nicolasgh91.github.io/Portfolio)
