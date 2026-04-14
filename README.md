@@ -71,5 +71,5 @@ Subdominios en producción:
 ## Contacto
 
 - Correo: nicolasgabh33@gmail.com
-- LinkedIn: [linkedin.com/in/nicolasgpini](https://www.linkedin.com/in/nicolasgpini/)
-- Portfolio: [nicolasgh91.github.io/Portfolio](https://nicolasgh91.github.io/Portfolio)
+- LinkedIn: [linkedin.com/in/nicolasghruszczak](https://www.linkedin.com/in/nicolasghruszczak/)
+- Portfolio: [https://www.escalatunegocioconia.com/](https://github.com/Nicolasgh91/portfolio)
