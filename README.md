@@ -1,5 +1,3 @@
-# Peerlog founder
-
 Full-stack developer · Analista funcional TI
 
 Estudiante de licenciatura en gestión de TI (UADE). Me especializo en construir aplicaciones web escalables que integran frontend moderno, APIs robustas e infraestructura cloud, con foco en la intersección entre decisiones técnicas y necesidades de negocio.
