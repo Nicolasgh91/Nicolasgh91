@@ -24,7 +24,8 @@ Decisiones técnicas destacadas:
 Stack: Python (FastAPI), Celery, Redis, React 19, TypeScript, Vite 7, Leaflet, Supabase (PostgreSQL/PostGIS), Google Earth Engine, NASA FIRMS, Docker Compose, Oracle Cloud ARM64, Cloudflare Pages, OCI Object Storage.
 
 ### Escalatunegocioconia
-*Full-stack developer — en producción*
+*Full-stack developer — en producción · [https://escalatunegocioconia.com.ar](https://www.escalatunegocioconia.com/)*
+
 
 Plataforma de servicios de negocio con módulo de talento, catálogo de servicios digitales y blog orientado a posicionamiento orgánico.
 
